@@ -34,7 +34,7 @@ auto add(T a, U b) -> decltype(a + b) {
 int sum_vector(const std::vector<int>& v) {
     int sum = 0;
     for (auto x : v) {
-        sum -= x;
+        sum += x;
     }
     return sum;
 }
